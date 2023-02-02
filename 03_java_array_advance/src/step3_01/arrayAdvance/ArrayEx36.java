@@ -6,6 +6,15 @@ package step3_01.arrayAdvance;
 public class ArrayEx36 {
 
 	public static void main(String[] args) {
+		
+		int [] testArr1 = {1,2,3,4,5};
+		int [][] testArr2 = {
+				{1,2,3,4,5},
+				{6,7,8,9,10},
+				{11,12,13,14,15}
+		};
+		
+		
 		int[][] arr = new int[2][4]; //4칸짜리가 2줄있다. 
 		
 		arr[0][0] = 10; //0행 0번째
